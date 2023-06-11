@@ -1,0 +1,157 @@
+.header_top {
+  background: #000d6b;
+  color: white;
+  padding: 10px 0px;
+}
+.header_top-left {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  cursor: pointer;
+}
+.header_top_help {
+  display: flex;
+  align-items: center;
+  column-gap: 0.4rem;
+}
+.header_top_help i {
+  background: white;
+  color: #000d6b;
+  padding: 2px 4px;
+  border-radius: 50px;
+  font-size: 0.7rem;
+}
+
+.header_middle {
+  padding: 20px 0px;
+}
+.logo h1 a span {
+  font-size: 1.5rem;
+  font-size: 1.4rem;
+}
+.logo h1 a {
+  font-weight: 600;
+}
+.logo h1 a i {
+  font-size: 2rem;
+}
+.logo h1 {
+  line-height: 1.4rem;
+}
+.header_location span i {
+  color: #000d6b;
+  font-size: 2.2rem;
+}
+.header_location_content h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000d6b;
+}
+.header_location_content h6 {
+  font-weight: 500;
+}
+.header_btn {
+  border: none;
+  outline: none;
+  padding: 5px 9px;
+  background: #000d6b;
+  border-radius: 5px;
+}
+.header_btn a {
+  display: flex;
+  align-items: center;
+  column-gap: 0.4rem;
+  color: white !important;
+  justify-content: end;
+  font-size: 0.9rem;
+}
+
+.main_navbar {
+  padding: 10px 0px;
+  background: #000d6b;
+}
+.mobile_menu i {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.mobile_menu {
+  display: none;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  column-gap: 2.7rem;
+}
+.nav_item {
+  color: white !important;
+  transition: .3s;
+}
+.nav_item:hover {
+  color: #f9a826 !important;
+}
+.search_box{
+    padding: 7px 12px;
+    border: 1px solid #7cBa9721;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background:#020a4de9;
+}
+.search_box input{
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+.search_box span i{
+    color: rgb(147, 165, 144);
+    cursor: pointer;
+}
+.nav_active{
+    color: #f9a826;
+}
+.menu_close{
+  display: none;
+}
+@media only screen and (max-width:768px) {
+  .header_top,.header_middle,.nav_right{
+    display: none;
+  }
+  .mobile_menu{
+    display: block;
+  }
+  .navigation{
+    background: rgb(0, 13, 107,0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+  }
+  .menu_close{
+    display: block;
+  }
+  .menu{
+    width: 250px;
+    height: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+  }
+  .menu a{
+    color: #000d6b !important;
+    font-weight: 600 !important;
+    font-size: 0.9rem !important;
+  }
+.menu_active{
+  display: block;
+}
+}

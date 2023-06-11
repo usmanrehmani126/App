@@ -1,0 +1,18 @@
+.become_driver{
+    background: linear-gradient(rgba(0,13,107,0.9),rgba(0,13,107,0.9)),url('../assets/all-images/drive.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.become_Driver_btn{
+    background: white;
+    color: black;
+    border: none;
+    outline: none;
+    padding: 7px 14px;
+    transition: .3s;
+}
+.become_Driver_btn:hover{
+background: rgba(0,13,107,0.9);
+color: white;
+}

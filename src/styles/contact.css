@@ -1,0 +1,29 @@
+.butt {
+    padding: 8px 20px;
+    font-weight: 600;
+    background: #000d6b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+  }
+   .butt:hover {
+    color: white;
+    background: #3c50e7;
+  }
+
+  .soical_gap i{
+    width: 30px;
+    background: #000d6b;
+    color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 4px;
+   font-size: 20px;
+   cursor: pointer;
+  }
+  

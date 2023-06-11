@@ -1,0 +1,20 @@
+.car_item-Info span i {
+  color: #f9a826;
+  font-size: 1.1rem;
+}
+.car_items-content h4 {
+  font-size: 1.5rem;
+}
+.car_item_btn {
+  border: none;
+  outline: none;
+  padding: 4px 8px;
+}
+.car_btn_rent {
+  background-color: #020a4de9;
+  color: white;
+}
+.car_btn_details {
+  background: #f9a826;
+  color: #020a4de9;
+}

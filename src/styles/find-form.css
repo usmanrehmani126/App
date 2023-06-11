@@ -1,0 +1,130 @@
+.find-cars-left {
+  background: linear-gradient(rgba(249, 168, 38, 0.9), rgba(249, 168, 38, 0.9)),
+    url("../assets/all-images/toyota-offer-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 65px 35px;
+  border-radius: 5px;
+}
+.form-group {
+  width: 30%;
+  margin-bottom: 0;
+}
+.form-group input {
+  border: 1px solid #7c8a972a;
+  outline: none;
+  padding: 8px 10px;
+  width: 100%;
+}
+.form-group input::placeholder {
+  color: #7c8a97;
+}
+.form {
+  background: white;
+}
+.select_group {
+  width: 30%;
+}
+.select_group select {
+  width: 100%;
+  padding: 7px 12px;
+  outline: none;
+  border: 1px solid #7c8a972a;
+  color: #7c8a97;
+}
+.hero_slider-section {
+  position: relative;
+  z-index: 10;
+  margin-bottom: 200px;
+}
+
+.form_row {
+  background: white;
+  box-shadow: 5px 5px 15px 5px #7c8a972a;
+}
+.Hero_form {
+  position: absolute;
+  bottom: -150px;
+  width: 100%;
+  z-index: 11;
+}
+.journeyTime::before {
+  content: "Journey time:";
+  color: #7c8a97;
+  margin-right: 0.3rem;
+  font-size: 0.7rem;
+}
+.find_btn {
+  border: none;
+  outline: none;
+  padding: 7px 20px;
+  background: #000d6b;
+  border-radius: 5px;
+  color: white;
+}
+.find-cars-left h4 {
+  font-size: 1.9rem;
+}
+
+@media screen and (max-width: 992px) {
+  .find-cars-left {
+    padding: 55px 22px;
+  }
+  .find-cars-left h2 {
+    font-size: 1.5rem;
+  }
+  .form {
+    padding: 30px 10px;
+  }
+  .form-group input,
+  .select_group select {
+    padding: 7px 10px;
+    font-size: 0.8rem;
+  }
+  .Hero_form {
+    bottom: -100px;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  .find-cars-left{
+    padding-top: 10px;
+    padding-bottom: 0;
+    background: white;
+    text-align: center;
+  }
+  .form{
+    padding: 5px 10px;
+  }
+  .find_btn{
+    font-size: 1rem;
+    padding: 5px 10px;
+  }
+}
+
+  @media screen and (max-width: 576px) {
+    .form-group{
+      width: 100%;
+      margin: auto;
+      margin-bottom: 15px;
+    }
+    .form-group input{
+      font-size: 0.7rem;
+    }
+    .select_group {
+      width: 100%;
+      padding-right: 10px;
+      font-size: .7rem;
+    }
+    .find-cars-left h2{
+      font-size: 0.7rem;
+    }
+    .Hero_form{
+      bottom: -250px;
+    }
+    .find_btn{
+      font-size: 0.8rem;
+      padding: 5px 10px;
+    }
+  }

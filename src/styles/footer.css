@@ -1,0 +1,62 @@
+.footer{
+    background: #000d6b;
+}
+.footer_logo i{
+color: white;
+font-weight: 400;
+}
+.footer_logo span{
+    color: white;
+font-weight: 500;
+
+}
+.logo_content{
+    color: rgb(151, 147, 147);
+    margin-top: 12px;
+    line-height: 30px;
+}
+.quick_links{
+    background: transparent !important;
+}
+.quick_links a{
+    color: rgb(151, 147, 147) !important;   
+    transition: .3s;
+}
+.quick_links a:hover{
+    color: #f9a826 !important;
+}
+.footer_link_title{
+    color: rgb(151, 147, 147) !important;   
+}
+.office_info{
+    color: white;
+}
+.footer-link-title{
+    color: rgb(151, 147, 147) !important;   
+}
+.section_description{
+    color: white;
+}
+.newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 8px;
+    border: 1px solid #7c8a972f;
+    border-radius: 50px;
+    background-color: #020a4de9;
+}
+.newsletter  input{
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+.newsletter span i{
+margin-left: -12px !important;
+    color: white;
+
+    }
+    .footer_bottom{
+        border-top: 1px solid gray;
+    }
